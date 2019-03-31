@@ -1,0 +1,24 @@
+.body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+#navbarNav {
+  font-family: "Comfortaa", cursive; }
+  #navbarNav li {
+    color: #1F262A; }
+    #navbarNav li a:hover {
+      color: #1190CB; }
+
+.navbar-brand {
+  height: 50px;
+  width: auto; }
+
+.nav-logo {
+  max-height: 100%; }
+
+/*# sourceMappingURL=main.css.map */
