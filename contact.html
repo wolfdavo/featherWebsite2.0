@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<?php include('./includes/head.html'); ?>
+
+<body>
+  <?php include('./includes/navbar.html'); ?>
+
+
+
+  <!-- ############### FORM ############### -->
+  <div class="container-light">
+
+
+
+    <div class="row">
+
+      <div class="col"></div>
+      <div class="col-xs-12 col-sm-8 col-lg-6">
+        <section class="waysOfContact">
+          <h1 class="blue">I can't wait to hear from you!</h1>
+          <br>
+          <h4>Here's my cell phone number, feel free to call or text anytime. (You can just click/tap the phone number to call you dont need to enter it manually.)</h4>
+
+
+          <a class="phone-number" href="tel:6514429483">
+
+            <div data-aos="flip-down" class="6">6</div>
+            <div data-aos="flip-down" data-aos-delay="100"class="5">5</div>
+            <div data-aos="flip-down" data-aos-delay="200"class="1">1</div>
+
+            <div data-aos="flip-down" data-aos-delay="300"class="dash">-</div>
+
+            <div data-aos="flip-down" data-aos-delay="400"class="4">4</div>
+            <div data-aos="flip-down" data-aos-delay="500"class="4">4</div>
+            <div data-aos="flip-down" data-aos-delay="600"class="2">2</div>
+
+            <div data-aos="flip-down" data-aos-delay="700"class="dash">-</div>
+
+            <div data-aos="flip-down" data-aos-delay="800"class="9">9</div>
+            <div data-aos="flip-down" data-aos-delay="900"class="4">4</div>
+            <div data-aos="flip-down" data-aos-delay="1000"class="8">8</div>
+            <div data-aos="flip-down" data-aos-delay="1100"class="3">3</div>
+
+          </a>
+
+
+          <br>
+          <h4>Or you can send me an email at:</h4>
+          <div class="display-email">
+            <div data-aos="fade-right"class="david"><h4>david</h4></div>
+            <div class="at"><h4>@</h4></div>
+            <div data-aos="fade-left"class="featherconsulting.net"><h4>featherconsulting.net</h4></div>
+          </div>
+
+          <br>
+
+        <form name="contact_form" class="contact-form" id="contactForm" method="post" action="contact-form-handler.php">
+
+          <div class="form-group">
+            <label for='Name'>*Name:</label>
+            <input class="form-control" type="text" id="Name" name="Name" />
+          </div>
+          <div class="form-group">
+            <label for='EMail'>*E-Mail:</label>
+            <input class="form-control" type="text" id="EMail" name="EMail" />
+          </div>
+          <div class="form-group">
+            <label for='Phone'>Phone Number:</label>
+            <input class="form-control" type="text" id="Phone" name="Phone" />
+          </div>
+
+          <div class="form-group">
+            <label for='Message'>*Message:</label>
+            <textarea class="form-control" name="Message" rows="8" cols="80" type="text" id="Message"></textarea>
+          </div>
+
+          <button type="submit" name="submit" value="submit" class="btn form-submit-btn">Submit</button>
+
+        </form>
+        </section>
+      </div>
+      <div class="col"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <?php include('./includes/footer.html'); ?>
+
+</body>
+
+</html>

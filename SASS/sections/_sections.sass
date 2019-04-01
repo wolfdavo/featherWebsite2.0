@@ -1,0 +1,46 @@
+.flex-parent
+  display: flex
+  align-content: center
+  justify-content: space-around
+  flex-wrap: wrap
+  padding-top: 60px
+  padding-bottom: 30px
+  overflow: hidden
+
+.reverse
+  flex-direction: row-reverse
+
+.section-text-flex
+  min-width: 450px
+  display: flex
+  align-self: center
+  flex-direction: column
+  padding: 20px
+  flex: 3
+  font-family: $brand-font
+  h2
+    font-size: 3rem
+    color: $brand-blue
+  p
+    font-size: 1.3rem
+
+.section-img-flex
+  display: flex
+  align-self: center
+  flex: 2
+  img
+    margin: auto
+    +sectionImage(200px,200px)
+
+.section-img-flex .no-drop
+  +sectionImage(300px, 300px)
+  filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0))
+  
+.cta
+  margin: auto
+  display: flex
+  justify-content: center
+  a
+    font-family: $brand-font
+    margin: 10px 20px
+    +buttons(auto, auto, 10px)

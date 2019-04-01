@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Feather Consulting</title>
+<?php include('./includes/head.html'); ?>
 
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+<body>
 
-    <link rel="stylesheet" href="./CSS/main.css">
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <?php include('./includes/navbar.html'); ?>
 
-  </head>
-  <body>
+  <a id="top"></a>
 
-    <!-- ############### NAVBAR ############### -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="index.html"><img class="img-fluid nav-logo" src="./assets/featherNavLogo.png" alt="Feather Consulting"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="testimonies.html">Testimonials</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Get in Touch</a>
-      </li>
+  <header class="header">
 
-    </ul>
-  </div>
-</nav>
+  </header>
 
-    <!--Bootstrap Jquery, then popper.js, then link local boostrap js-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-   q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./bootstrap/bootstrap.min.js"></script>
-  </body>
+  <section class="websites">
+    <div class="flex-parent">
+      <div data-aos="fade-right" data-aos-duration="1000" class="section-text-flex">
+        <h2 class="section-header">I build websites.</h2>
+        <p class="section-body">As a certified developer, I know all the tricky code that goes into building a webpage. My most popular option for small businesses is a three page website which lets you have a home page, contact us page, and an about us. For that I charge only $300, paid once your website is finished and you're happy with it. </p>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1000" class="section-img-flex">
+        <img class="section-image" src="./assets/website-example.png" alt="website example image">
+      </div>
+    </div>
+    <div class="cta">
+      <a class="cta-button" type="button" href="testimonials.html" tabindex="1">Testimonials</a>
+      <a class="cta-button" type="button" href="contact.html" tabindex="1">I need a website!</a>
+    </div>
+  </section>
+
+  <section class="social">
+    <div class="flex-parent reverse">
+      <div data-aos="fade-right" data-aos-duration="1000" class="section-text-flex">
+        <h2 class="section-header">I manage your social media, too.</h2>
+        <p class="section-body">I post to your social media channels as often as you'd like, keeping your audience engaged and growing! I charge $5 per post, billed monthly.</p>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1000" class="section-img-flex">
+        <img class="section-image no-drop" src="./assets/social-management.png" alt="website example image">
+      </div>
+    </div>
+    <div class="cta">
+      <a class="cta-button" type="button" href="contact.html" tabindex="1">Sign me up!</a>
+    </div>
+  </section>
+
+  <section class="other">
+    <div class="flex-parent">
+      <div data-aos="fade-right" data-aos-duration="1000" class="section-text-flex">
+        <h2 class="section-header">Something else you need help with?</h2>
+        <p class="section-body">Please feel free to get in touch if you have anything else you need a hand with, I'll see what I can do.</p>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1000" class="section-img-flex">
+        <img class="section-image" src="./assets/something-else.png" alt="website example image">
+      </div>
+    </div>
+    <div class="cta">
+      <a class="cta-button" type="button" href="contact.html" tabindex="1">Get in touch</a>
+    </div>
+  </section>
+
+  <br><br><br>
+
+  <?php include('./includes/footer.html'); ?>
+  
+</body>
+
 </html>
