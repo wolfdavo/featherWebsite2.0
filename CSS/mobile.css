@@ -3,3 +3,23 @@
     font-size: 1.5rem;
   }
 }
+
+@media only screen and (max-width: 865px){
+  .header-text>.section-body{
+    font-size: 1rem;
+  }
+  .header-text>.section-header {
+    font-size: 2rem;
+  }
+
+  .header-text {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+
+  .header-img>img{
+    width: 150%;
+    overflow: hidden;
+  }
+}
