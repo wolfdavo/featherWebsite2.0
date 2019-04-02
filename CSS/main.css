@@ -93,7 +93,8 @@ div.no-top-padding {
 .cta {
   margin: auto;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
   .cta a {
     font-family: "Comfortaa", cursive;
     margin: 10px 20px;
@@ -106,6 +107,7 @@ div.no-top-padding {
     border-radius: 10px;
     background-color: #1190CB;
     color: #FDFDFD;
+    align-self: center;
     transition: 0.2s ease-in-out; }
     .cta a:hover {
       text-decoration: none;
@@ -177,6 +179,7 @@ div.testimony {
   border: 1px solid #D2D9DB; }
 
 a.cta-button {
+  align-self: center;
   -webkit-appearance: none;
   font-family: "Comfortaa", cursive;
   width: auto;
@@ -187,6 +190,7 @@ a.cta-button {
   border-radius: 10px;
   background-color: #1190CB;
   color: #FDFDFD;
+  align-self: center;
   transition: 0.2s ease-in-out; }
   a.cta-button:hover {
     text-decoration: none;
