@@ -1,10 +1,13 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1150px){
   .display-email h4{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
 @media only screen and (max-width: 865px){
+  .display-email h4{
+    font-size: 1.2rem;
+  }
   .header-text>.section-body{
     font-size: 1rem;
   }
@@ -22,4 +25,23 @@
     width: 150%;
     overflow: hidden;
   }
+}
+
+@media only screen and (max-width: 700px){
+  .display-email h4{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .cta{
+    margin: 0;
+  }
+  .section-text-flex{
+    min-width: auto;
+  }
+  .testimonials-header{
+    font-size: 2.5rem;
+  }
+
 }
