@@ -68,7 +68,7 @@ section {
   display: flex;
   align-self: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 50px;
   flex: 3;
   font-family: "Comfortaa", cursive; }
   .section-text-flex h2 {
